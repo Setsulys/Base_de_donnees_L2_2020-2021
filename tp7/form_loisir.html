@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Créer un loisir</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<h1>Créer un loisir</h1>
+
+<form action="insertion_loisir.php" method="post">
+    <p>Insérer un nouveau loisir dans la base de données.</p>
+    <label>Code du loisir :
+        <input type="text" name="code_loisir">
+    </label>
+    <br>
+    <label>Libellé du loisir :
+        <input type="text" name="lib_loisir">
+    </label>
+    <br>
+    <input type="reset" name="Effacez">
+    <input type="submit" name="inserez">
+</form>
+
+</body>
+</html>

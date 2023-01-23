@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="278" height="229" view_box="0 0 278 229"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Fri, 09 Oct 2020 03:47:52</desc>
+
+<rect id="frame" x="0" y="0" width="278" height="229" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association OCCUPE -->
+<line x1="146" y1="169" x2="146" y2="51" stroke="#f46d43" stroke-width="2"/>
+<text x="151.0" y="110" fill="#3288bd" font-family="Verdana" font-size="12">1,N</text>
+<line x1="36" y1="51" x2="146" y2="51" stroke="#f46d43" stroke-width="2"/>
+<text x="67" y="68.0" fill="#3288bd" font-family="Verdana" font-size="12">1,N</text>
+<line x1="240" y1="51" x2="146" y2="51" stroke="#f46d43" stroke-width="2"/>
+<text x="184" y="68.0" fill="#3288bd" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-OCCUPE">
+	<path d="M 165 26 a 14 14 90 0 1 14 14 V 51 h -66 V 40 a 14 14 90 0 1 14 -14" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+	<path d="M 179 51.0 v 11 a 14 14 90 0 1 -14 14 H 127 a 14 14 90 0 1 -14 -14 V 51.0 H 66" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+	<rect x="113" y="26" width="66" height="50" fill="none" rx="14" stroke="#f46d43" stroke-width="2"/>
+	<line x1="113" y1="51" x2="179" y2="51" stroke="#f46d43" stroke-width="1"/>
+	<text x="120" y="43.7" fill="#000000" font-family="Verdana" font-size="12">OCCUPE</text>
+	<text x="120" y="68.8" fill="#000000" font-family="Verdana" font-size="12">dossard</text>
+</g>
+
+<!-- Association parent -->
+<path d="M146 169 C 93.3333333333 202.333333333 56.6666666667 202.333333333 36 169" fill="none" stroke="#f46d43" stroke-width="2"/>
+<text x="68" y="184.0" fill="#3288bd" font-family="Verdana" font-size="12">0,N</text>
+<path d="M146 169 C 93.3333333333 135.666666667 56.6666666667 135.666666667 36 169" fill="none" stroke="#f46d43" stroke-width="2"/>
+<text x="68" y="163.0" fill="#3288bd" font-family="Verdana" font-size="12" onmouseover="show(evt,'numidparent')" onmouseout="hide(evt)" style="cursor: pointer;">0,N</text>
+<path d="M 95.0039283633 145.884252205 L 81.986070107 149.130075124 L 87.1955178483 144.143928894 L 84.5965550746 137.417459352 Z" fill="#f46d43" stroke-width="0"/>
+<g id="association-parent">
+	<path d="M 49 144 a 14 14 90 0 1 14 14 V 169 h -54 V 158 a 14 14 90 0 1 14 -14" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+	<path d="M 63 169.0 v 11 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 169.0 H 54" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+	<rect x="9" y="144" width="54" height="50" fill="none" rx="14" stroke="#f46d43" stroke-width="2"/>
+	<line x1="9" y1="169" x2="63" y2="169" stroke="#f46d43" stroke-width="1"/>
+	<text x="16" y="161.7" fill="#000000" font-family="Verdana" font-size="12">parent</text>
+</g>
+
+<!-- Entity course -->
+<g id="entity-course">
+	<g id="frame-course">
+		<rect x="10" y="17" width="52" height="25" fill="#abdda4" stroke="#abdda4" stroke-width="0"/>
+		<rect x="10" y="42.0" width="52" height="43" fill="#e6f598" stroke="#e6f598" stroke-width="0"/>
+		<rect x="10" y="17" width="52" height="68" fill="none" stroke="#66c2a5" stroke-width="2"/>
+		<line x1="10" y1="42" x2="62" y2="42" stroke="#66c2a5" stroke-width="1"/>
+	</g>
+	<text x="15" y="34.7" fill="#000000" font-family="Verdana" font-size="12">course</text>
+	<text x="15" y="59.8" fill="#000000" font-family="Verdana" font-size="12">code</text>
+	<line x1="15" y1="62" x2="44" y2="62" stroke="#000000" stroke-width="1"/>
+	<text x="15" y="76.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<line x1="15" y1="79" x2="43" y2="79" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity jockey -->
+<g id="entity-jockey">
+	<g id="frame-jockey">
+		<rect x="211" y="9" width="58" height="25" fill="#abdda4" stroke="#abdda4" stroke-width="0"/>
+		<rect x="211" y="34.0" width="58" height="59" fill="#e6f598" stroke="#e6f598" stroke-width="0"/>
+		<rect x="211" y="9" width="58" height="84" fill="none" stroke="#66c2a5" stroke-width="2"/>
+		<line x1="211" y1="34" x2="269" y2="34" stroke="#66c2a5" stroke-width="1"/>
+	</g>
+	<text x="220" y="26.7" fill="#000000" font-family="Verdana" font-size="12">jockey</text>
+	<text x="216" y="51.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="216" y1="54" x2="228" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="216" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="216" y="85.8" fill="#000000" font-family="Verdana" font-size="12">prenom</text>
+</g>
+
+<!-- Entity cheval -->
+<g id="entity-cheval">
+	<g id="frame-cheval">
+		<rect x="95" y="118" width="102" height="25" fill="#abdda4" stroke="#abdda4" stroke-width="0"/>
+		<rect x="95" y="143.0" width="102" height="77" fill="#e6f598" stroke="#e6f598" stroke-width="0"/>
+		<rect x="95" y="118" width="102" height="102" fill="none" stroke="#66c2a5" stroke-width="2"/>
+		<line x1="95" y1="143" x2="197" y2="143" stroke="#66c2a5" stroke-width="1"/>
+	</g>
+	<text x="126" y="135.7" fill="#000000" font-family="Verdana" font-size="12">cheval</text>
+	<text x="100" y="160.7" fill="#000000" font-family="Verdana" font-size="12">numid</text>
+	<line x1="100" y1="163" x2="139" y2="163" stroke="#000000" stroke-width="1"/>
+	<text x="100" y="177.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="100" y="194.8" fill="#000000" font-family="Verdana" font-size="12">sexe</text>
+	<text x="100" y="211.8" fill="#000000" font-family="Verdana" font-size="12">date naissance</text>
+</g>
+
+<!-- Annotations -->
+<script type="text/ecmascript">
+<![CDATA[
+	function show(evt, text) {
+		var pos = (evt.target.getAttribute("y") < 184) ? "bottom" : "top"
+		var annotation = document.getElementById(pos + "_annotation_cnjAHsiZ")
+		annotation.textContent = text
+		annotation.setAttributeNS(null, "visibility", "visible");
+		document.getElementById(pos + "_overlay_cnjAHsiZ").setAttributeNS(null, "visibility", "visible");
+	}
+	function hide(evt) {
+		document.getElementById("top_annotation_cnjAHsiZ").setAttributeNS(null, "visibility", "hidden");
+		document.getElementById("top_overlay_cnjAHsiZ").setAttributeNS(null, "visibility", "hidden");
+		document.getElementById("bottom_annotation_cnjAHsiZ").setAttributeNS(null, "visibility", "hidden");
+		document.getElementById("bottom_overlay_cnjAHsiZ").setAttributeNS(null, "visibility", "hidden");
+	}
+]]>
+</script>
+<rect id="top_overlay_cnjAHsiZ" x="0" y="0" width="278" height="40" fill="#d53e4f" stroke-width="0" opacity="0.9" visibility="hidden"/>
+<text id="top_annotation_cnjAHsiZ" text-anchor="middle" x="139.0" y="24" fill="#ffffbf" font-family="Verdana" font-size="14" visibility="hidden"></text>
+<rect id="bottom_overlay_cnjAHsiZ" x="0" y="189" width="278" height="40" fill="#d53e4f" stroke-width="0" opacity="0.9" visibility="hidden"/>
+<text id="bottom_annotation_cnjAHsiZ" text-anchor="middle" x="139.0" y="213" fill="#ffffbf" font-family="Verdana" font-size="14" visibility="hidden"></text>
+</svg>

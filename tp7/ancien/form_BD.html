@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-Strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Formulaire de saisie d'une personne</title>
+	<style type="text/css">
+		body {
+			background-color:#ffd;
+			font-family:Verdana,Helvetica,Arial,sans-serif;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Formulaire correspondant à une personne</h1>
+
+	<form action="" method="POST">
+		<p>Nom <input type="text" name="nom" size="40"  /> 
+			Prénom <input type="text" name="prenom" size="20" /><br />
+			<input type="radio" name="titre" value="1" />M. <br />
+			<input type="radio" name="titre" value="2"  />Mme <br />
+			<input type="radio" name="titre" value="3" />Mlle <br />
+			Date de naissance <input type="text" name="date_n" size="6" value="aa/mm/jj"  /> <br />
+			Service <select name="service">
+			<option value="" selected="selected">-- service --</option>
+			<option value="comm">Communication</option>
+			<option value="dvlp">Développement</option>
+			<option value="pers">Personnel</option>
+			<option value="prod">Production</option>
+		</select>
+	</p>
+	<p>
+		Loisirs <br />
+		<input type="checkbox" name="loisirs[]" value="spo" /> Sports<br />
+		<input type="checkbox" name="loisirs[]" value="mus" /> Musique<br />
+		<input type="checkbox" name="loisirs[]" value="jeu" /> Jeux<br />
+		<input type="checkbox" name="loisirs[]" value="voy" /> Voyages<br />
+	</p>
+	<p>
+		<input type="reset" name="reset" value="Effacez" /> 
+		<input type="submit" name="submit" value="Validez" />
+	</p>
+</form>
+
+</body>
+</html>
